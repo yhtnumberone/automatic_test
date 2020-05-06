@@ -1,0 +1,55 @@
+assertEqual(a,b，[msg='测试失败时打印的信息'])：若 a=b，则测试用例通过
+
+assertNotEqual(a,b，[msg='测试失败时打印的信息'])：若a != b，则测试用例通过
+
+assertTrue(x，[msg='测试失败时打印的信息'])：若x是True，则测试用例通过
+
+assertFalse(x，[msg='测试失败时打印的信息'])：若x是False，则测试用例通过
+
+assertIs(a,b，[msg='测试失败时打印的信息'])：若a是b，则测试用例通过
+
+assertNotIs(a,b，[msg='测试失败时打印的信息'])：若a不是b，则测试用例通过
+
+assertIsNone(x，[msg='测试失败时打印的信息'])：若x是None，则测试用例通过
+
+assertIsNotNone(x，[msg='测试失败时打印的信息'])：若x不是None，则测试用例通过
+
+assertIn(a,b，[msg='测试失败时打印的信息'])：若a在b中，则测试用例通过
+
+assertNotIn(a,b，[msg='测试失败时打印的信息'])：若a不在b中，则测试用例通过
+
+assertIsInstance(a,b，[msg='测试失败时打印的信息'])：若a是b的一个实例，则测试用例通过
+
+assertNotIsInstance(a,b，[msg='测试失败时打印的信息'])：若a不是b的实例，则测试用例通过
+
+assertAlmostEqual(a, b)：round(a-b, 7) == 0
+
+assertNotAlmostEqual(a, b)：round(a-b, 7) != 0
+
+assertGreater(a, b)：a > b     
+
+assertGreaterEqual(a, b)：a >= b     
+
+assertLess(a, b)：a < b     
+
+assertLessEqual(a, b)：a <= b     
+
+assertRegexpMatches(s, re)：regex.search(s)     
+
+assertNotRegexpMatches(s, re)：not regex.search(s)     
+
+assertItemsEqual(a, b)：sorted(a) == sorted(b) and works with unhashable objs     
+
+assertDictContainsSubset(a, b)：all the key/value pairs in a exist in b     
+
+assertMultiLineEqual(a, b)：strings     
+
+assertSequenceEqual(a, b)：sequences     
+
+assertListEqual(a, b)：lists     
+
+assertTupleEqual(a, b)：tuples     
+
+assertSetEqual(a, b)：sets or frozensets     
+
+assertDictEqual(a, b)：dicts     
